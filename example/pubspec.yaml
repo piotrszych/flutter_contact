@@ -13,7 +13,7 @@ dependencies:
     sdk: flutter
   flutter_platform_widgets: ^0.71.0
   full_text_search: any
-  intl: ^0.16.0
+  intl: any
   logging: ^0.11.4
   logging_config: ^0.4.7
   permission_handler: ^5.0.1+1
@@ -25,6 +25,11 @@ dev_dependencies:
 
   flutter_test:
     sdk: flutter
+
+dependency_overrides:
+  intl: ^0.17.0
+  crypto: ^3.0.0
+  uuid: ^3.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
